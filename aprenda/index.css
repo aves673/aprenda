@@ -1,0 +1,176 @@
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+.footer {
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    background-color: darkgray;
+    justify-content: center;
+    text-align: center;
+}
+footer{
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+}
+
+header {
+    front: normal 16px Arial, verdana, serif;
+    text-align: left;
+    justify-content: center;
+    
+}
+header {
+    justify-content: center;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.banner-principal .banner-image{
+    width: 100%;
+    max-height: 450px;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo{
+    flex-basis: 50%;
+}
+
+header .logo h1{
+    font-weight: lighter;
+}
+
+.menu-icon{
+    align-self: center;
+}
+
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.menu{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    align-self: center;
+}
+
+.menu ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-item{
+    align-content: center;
+}
+
+.card-group{
+    align-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+    height: 40%;
+    border: 1px solid rgb(138, 138, 138);
+    margin: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.card-img-top{
+
+    width: 100%;
+    height: 100%;
+}
+
+.card-title{
+    align-content: center;
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text{
+    margin: 2%;
+    font-size: 105%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    
+    display: block;
+    text-align: center;
+    background-color: #0073ff;
+    color: white;
+    text-decoration: none;
+    padding: 0.3em 1em;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin: 2%;
+    margin-left: 30%;
+}
+.footer{
+    background: lightgray;
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.learn-text-container {
+    color: black; /* Define a cor do texto como preto */
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    font-size: 18px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    text-align: center; /* Alinha o texto ao centro */
+    margin: 2%;
+}
